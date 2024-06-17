@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .ramji{
+            /* background-color: cadetblue; */
+            animation: sita  7s linear infinite;
+            /* position: fixed; */
+            /* background: url(https://pngbuy.com/wp-content/uploads/2023/06/hanuman-pnghanuman-ji-pngfull-hd-hanuman-png.png); */
+        }
+        @keyframes sita {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+.container{
+    /* background-color: cadetblue;
+     */
+     background: url(https://img.freepik.com/premium-photo/abstract-background-volcano-creating-explosive-banner-design-with-illustration-majestic-volcano-background-generative-ai_198565-7636.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: bottom;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    /* display: block; */
+    padding: 16vw 70vh;
+}
+.main{
+    height: 500vw;
+    width: 500vw;
+    position: absolute;
+    z-index: 0;
+}
+.image{
+    height: 500vw;
+    width: 500vw;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    display: block;
+}
+.eyes{
+    position: fixed;
+    height: 400vw;
+    width: 400vw;
+    top: 21.7vw;
+    left: 90.5vh;
+    z-index: 5;
+    animation: eye 3s linear infinite;
+}
+@keyframes eye {
+    0%{
+            transform: translateX(-20%,-20%);
+            opacity: 0.5;
+        }
+        50%{
+            
+            opacity: 1;
+        }
+        70%{
+            
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0vh);
+            opacity: 0;
+        }
+    
+}
+.second{
+    height: 400vw;
+    width: 400vw;
+    position: absolute;
+    z-index: 1;
+}
+.ramji-1{
+    animation: sita-1  7s linear infinite;
+}
+@keyframes sita-1 {
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }
+            
+        }
+        /* .demon{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 15px;
+            animation: demon1 4s linear infinite;
+        }
+        @keyframes demon1 {
+            0%{
+                left: 0;
+                top: 0;
+            }
+            25%{
+                left: 250px;
+                top: 150px;
+            }
+            50%{
+                left: 500px;
+                top: 0;
+            }
+            75%{
+                left: 750px;
+                top: 250px;
+            }
+            100%{
+                left: 1200px;
+                top: 0;
+            }
+            
+        } */
+    </style>
+    
+</head>
+<body>
+ <div class="container">   
+    <!-- <div class="demon">
+        <img src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-cute-devil-clipart-cute-cartoon-demon-child-vector-png-image_11092670.png" alt="demon" width="200px">
+    </div> -->
+    <div class="main">
+    <svg width="300" height="300" class="ramji-1" >
+   <circle id="curve" cx="150" cy="150" r="100" fill="transparent">
+    " ></circle>
+   <text>
+    <textpath href="#curve" id="curve-1">जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम</textpath>
+    <!-- <img src="https://pngbuy.com/wp-content/uploads/2023/06/hanuman-pnghanuman-ji-pngfull-hd-hanuman-png.png" width="300px" > -->
+</text>
+</svg>
+</div>
+<div class="eyes">
+    <img src="https://png.pngtree.com/png-clipart/20220712/ourmid/pngtree-cute-anime-eyes-png-image_5915030.png" width="34.5px">
+</div>
+
+
+<div class="image">
+<img src="https://pngbuy.com/wp-content/uploads/2023/06/hanuman-pnghanuman-ji-pngfull-hd-hanuman-png.png" width="300px" id="img1">
+</div>
+<div class="second">
+    <svg width="300" height="300" class="ramji" >
+        <circle id="curve-3" cx="150" cy="150" r="135" fill="transparent">
+         " ></circle>
+        <text>
+         <textpath href="#curve-3" > जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम  जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम</textpath>
+         <!-- <img src="https://pngbuy.com/wp-content/uploads/2023/06/hanuman-pnghanuman-ji-pngfull-hd-hanuman-png.png" width="300px" > -->
+     
+        </text>
+     </svg>
+</div>
+
+<div class="third">
+    <svg width="300" height="300" class="ramji" >
+        <circle id="curve-4" cx="150" cy="150" r="70" fill="transparent">
+         " ></circle>
+        <text>
+         <textpath href="#curve-4" >जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम  जय श्री राम जय श्री राम जय श्री राम जय श्री राम जय श्री राम</textpath>
+         <!-- <img src="https://pngbuy.com/wp-content/uploads/2023/06/hanuman-pnghanuman-ji-pngfull-hd-hanuman-png.png" width="300px" > -->
+     
+        </text>
+     </svg>
+</div>
+
+</div>
+</body>
+</html>
